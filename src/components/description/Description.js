@@ -8,7 +8,7 @@ function Description (props){
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="mb-5">
-                                <h5 class="card-title"><b>I PHONE 13 PRO</b></h5>
+                                <h5 class="card-title"><b>I PHONE 13 PRO haha</b></h5>
                                 <p>
                                     Blended value human-centered social innovation resist scale and impact issue
                                     outcomes
