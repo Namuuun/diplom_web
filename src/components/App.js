@@ -6,6 +6,7 @@ import Home from '../pages/home/Home';
 import Detail from '../pages/detail/Detail';
 import Payment from '../pages/payment/Payment';
 import './app.css'
+import Admin from '../pages/admin/Admin';
 export class App extends Component {
   render() {
     return (
@@ -17,6 +18,7 @@ export class App extends Component {
                     <Route path={'/'} element={<Home/>}/>
                     <Route path={ROUTES.DETAIL} element={<Detail/>}/>
                     <Route path={ROUTES.PAYMENT} element={<Payment/>}/>
+                    <Route path={ROUTES.ADMIN} element={<Admin/>}/>
                 </Routes >
             </div>
           </div>

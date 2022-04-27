@@ -167,9 +167,9 @@ function Detail (props){
                                </div>
                                <div className=''>
                                     <Button color="secondary" variant="outlined">
-                                        <Link to={ROUTES.PAYMENT}  >
+                                        {quantity > 0 ?<Link to={ROUTES.PAYMENT} state={{quantity: quantity}}>
                                             Худалдан авах
-                                        </Link>
+                                        </Link> : <span>Худалдан авах</span>}
                                     </Button>
                                 </div>
                             </div>
